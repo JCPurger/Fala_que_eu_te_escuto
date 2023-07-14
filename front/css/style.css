@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=VT323&display=swap');
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cabecalho{
+  background-color: #2D2D2D;
+  color: white;
+  font-family: 'VT323';
+  font-size: 25px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#logo{
+  width: 90px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.secao{
+  margin-top: 30px;
+  padding: 5px;
+  width: 610px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #0000004f;
+  border-radius: 15px;
+}
+
+.text_area{
+  height: 210px;
+  max-height: 210px;
+  min-height: 210px; 
+  background-color:rgba(169, 169, 169, 0.199);
+}
+
+.down_post{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.username{
+  font-size: 15px;
+}
+
+.btn-success{
+  width: 120px;
+  padding: 5px;
+}
+
+.txt_postado{
+  width: 600px;
+}
+  
+.down_text{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
