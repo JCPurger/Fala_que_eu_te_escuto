@@ -27,17 +27,17 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 80px;
 }
 
-.secao{
+.secao_home{
   margin-top: 30px;
   padding: 5px;
   width: 610px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid #0000004f;
-  box-shadow: 0px 1px 2px #2D2D2D;
+  border: 0.5px solid #9696964f;
   border-radius: 15px;
 }
 
@@ -45,7 +45,6 @@ main {
   height: 210px;
   max-height: 210px;
   min-height: 210px; 
-  background-color:rgba(169, 169, 169, 0.199);
 }
 
 .down_post{
@@ -65,7 +64,7 @@ main {
   font-size: 15px;
 }
 
-.btn-success{
+.btn_post{
   width: 120px;
   padding: 5px;
 }
@@ -78,4 +77,64 @@ main {
   display: flex;
   justify-content: end;
   gap: 10px;
+}
+
+#txt_selecione{
+  margin-top: 30px;
+  width: 610px;
+  text-align: center;
+  font-family: 'VT323';
+  background-color: #2D2D2D;
+  color: white;
+  border: 1px solid #0000004f;
+  box-shadow: 0px 0px 2px #2D2D2D;
+  border-radius: 15px 15px 0 0;
+}
+
+.secao_perfil{
+  padding: 5px;
+  width: 610px;
+  height: 380px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 0.5px solid #9696964f;
+  border-radius: 0 0 15px 15px;
+  scroll-behavior: smooth;;
+}
+
+::-webkit-scrollbar{
+  background-color: #2d2d2d67;
+  border-radius: 0  0 15px 15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #2D2D2D;; 
+  border-radius: 0  0 15px 15px;
+  margin: 0;
+
+}
+
+.perfil_image{
+  width: 120px;
+  box-shadow: 2px 3px 2px #2D2D2D;
+  border-radius: 100px;
+}
+
+.perfil_image:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.perfil_image.selected{
+  border: 5px solid green;
+}
+
+.btn_go {
+  width: 610px;
+  margin-top: 30px;
+  font-size: 20px;
 }
