@@ -1,0 +1,50 @@
+[
+    {
+        "user": {
+            "imagePicture": "/midia/perfil-5.png",
+            "name": "Ernest Koelpin Sr."
+        },
+        "text": "Lorem ipsum dollor sit ammet,Lorem ipsum dollor sit ammet",
+        "date": "21/01/2024"
+    },
+    {
+        "user": {
+            "imagePicture": "/midia/perfil-2.png",
+            "name": "Lisa Romaguera I"
+        },
+        "text": "Lorem ipsum dollor sit ammet,Lorem ipsum dollor sit ammet",
+        "date": "21/01/2024"
+    },
+    {
+        "user": {
+            "imagePicture": "/midia/perfil-3.png",
+            "name": "Yvonne Kuvalis"
+        },
+        "text": "Lorem ipsum dollor sit ammet,Lorem ipsum dollor sit ammet",
+        "date": "21/01/2024"
+    },
+    {
+        "user": {
+            "imagePicture": "/midia/perfil-4.png",
+            "name": "Nancy Schiller"
+        },
+        "text": "Lorem ipsum dollor sit ammet,Lorem ipsum dollor sit ammet",
+        "date": "21/01/2024"
+    },
+    {
+        "user": {
+            "imagePicture": "/midia/perfil-6.png",
+            "name": "Nancy Schilleraaaa"
+        },
+        "text": "Lorem ipsum dollor sit ammet,Lorem ipsum dollor sit ammet",
+        "date": "21/01/2024"
+    },
+    {
+        "user": {
+            "imagePicture": "/midia/perfil-8.png",
+            "name": "Usuariooooo"
+        },
+        "text": "ASDASDASDSD",
+        "date": "18/07/2023"
+    }
+]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <%- include('./partials/head.ejs', {title: 'login'}); %>
+</head>
+<body>
+  <%- include('./partials/nav.ejs'); %>
+  <main class="main">
+    <section class="secao_home shadow-lg">
+      <div class="input-group flex-nowrap">
+        <input type="text" class="form-control shadow-none border-0 fs-4" placeholder="Escreva seu nome" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+    </section>      
+    <div class="shadow-lg" id="txt_selecione">
+        <h2 class="fs-1 m-0">SELECIONE SEU AVATAR</h2>
+    </div>
+    <section class="secao_perfil shadow-lg">
+      <img src="midia/perfil-1.png" alt="" class="perfil_image">
+      <img src="midia/perfil-2.png" alt="" class="perfil_image">
+      <img src="midia/perfil-3.png" alt="" class="perfil_image">
+      <img src="midia/perfil-4.png" alt="" class="perfil_image">
+      <img src="midia/perfil-5.png" alt="" class="perfil_image">
+      <img src="midia/perfil-6.png" alt="" class="perfil_image">
+      <img src="midia/perfil-7.png" alt="" class="perfil_image">
+      <img src="midia/perfil-8.png" alt="" class="perfil_image">
+      <img src="midia/perfil-9.png" alt="" class="perfil_image">
+      <img src="midia/perfil-10.png" alt="" class="perfil_image">
+      <img src="midia/perfil-11.png" alt="" class="perfil_image">
+      <img src="midia/perfil-12.png" alt="" class="perfil_image">
+    </section>
+    <div>
+      <a href="home"><button type="button" class="btn btn-success btn_go">Avançar <i class="bi bi-arrow-right"></i></button></a>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
